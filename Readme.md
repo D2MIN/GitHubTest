@@ -27,3 +27,7 @@ graph LR;
 - `git restore --staged <file>` - переведёт файлы из `staged` в `modified` или `untracked`
 - `git reset --hard <commit hash>` - откатит история до выбраного коммита более поздние комиты удалятся
 - `git restore <file>` - откат изминений в файлу до последней сохраннёной версии
+
+Для просмотра изменений в файлах
+- `git diff` - для файлов не дабавленых в add
+- `git diff <commit hash> <commit hash>` - для просмотра изминений между коммитами
