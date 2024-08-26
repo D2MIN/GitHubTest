@@ -11,4 +11,4 @@ And more
 
 - Point
 - Another point
-- And point
+- End point
