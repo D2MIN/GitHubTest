@@ -37,3 +37,13 @@ graph LR;
 - ** - все файлы и папки с вложеностью от 0-n (**.txt - main/submain/texts/book.txt)
 - [] - перечисляемый символ (file[0-9].txt - все файлы с цыфрой после file, так же можно [a-z], [abgf])
 - ! - отрицание чего либо (*.txt и !readme.txt - все файлы .txt кроме readme.txt)
+
+
+# Работа с ветками в GIT
+
+- Для просмотра существующих веток используем - git branch
+
+- Для создания - git branch <имя ветки> (git branch newBranch)
+
+- Для перехода по веткам - git checkout <имя ветки> (git checkout newBranch)
+
