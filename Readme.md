@@ -46,3 +46,12 @@ graph LR;
 
 - Для перехода по веткам - git checkout <имя ветки> (git checkout newBranch)
 
+``` bash
+
+- git diff main main~4 (Посмотреть разницу между последним комитом и 4 до него)
+
+- git diff main~0 main~4 (То же самое)
+
+- git diff main main~ (то же что и git diff main main~1)
+
+```
